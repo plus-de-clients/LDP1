@@ -1,0 +1,30 @@
+/* Calendly Button Styles */
+.calendly-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 15px 25px;
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-lg);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  z-index: 999;
+  border: none;
+  font-size: var(--font-size-base);
+}
+
+.calendly-btn:hover {
+  transform: translateY(-2px);
+  background-color: var(--primary-dark);
+}
+
+@media (max-width: 768px) {
+  .calendly-btn {
+    bottom: 10px;
+    right: 10px;
+    padding: 12px 20px;
+    font-size: var(--font-size-sm);
+  }
+}

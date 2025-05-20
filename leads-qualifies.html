@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Obtenez des prospects B2B ultra qualifiés grâce à notre technologie d'IA avancée. Prospects exclusifs et vérifiés, qualification précise et taux de conversion supérieur pour développer votre activité.">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://plus-de-clients.fr/leads-qualifies">
+  <meta property="og:title" content="Prospects B2B Qualifiés par IA | Plus de Clients">
+  <meta property="og:description" content="Obtenez des prospects B2B ultra qualifiés grâce à notre technologie d'IA avancée. Prospects exclusifs et vérifiés, qualification précise et taux de conversion supérieur pour développer votre activité.">
+  <meta property="og:image" content="/images/META_icone.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://plus-de-clients.fr/leads-qualifies">
+  <meta property="twitter:title" content="Prospects B2B Qualifiés par IA | Plus de Clients">
+  <meta property="twitter:description" content="Obtenez des prospects B2B ultra qualifiés grâce à notre technologie d'IA avancée. Prospects exclusifs et vérifiés, qualification précise et taux de conversion supérieur pour développer votre activité.">
+  <meta property="twitter:image" content="/images/META_icone.svg">
+
+  <title>Prospects B2B Qualifiés par IA | Plus de Clients</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/leads.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo-container">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo.svg" alt="Plus de Clients" />
+        </a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="./index.html" class="nav-link">Accueil</a></li>
+          <li class="nav-item"><a href="./leads-qualifies.html" class="nav-link active">Prospects qualifiés</a></li>
+          <li class="nav-item"><a href="./formations-ads.html" class="nav-link">Formations Ads</a></li>
+          <li class="nav-item"><a href="./gestion-campagnes.html" class="nav-link">Gestion de campagnes</a></li>
+        </ul>
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content" data-aos="fade-right">
+          <h1>Prospects ultra qualifiés <br> par IA</h1>
+          <p>Des prospects exclusifs et qualifiés pour développer votre activité rapidement et efficacement.</p>
+        </div>
+
+        <div class="form-container" data-aos="fade-left">
+          <h2>Nous trouvons vos clients de demain exclusifs et qualifiés</h2>
+          <form id="lead-form" class="multi-step-form">
+            <!-- Step 1 -->
+            <div class="form-step active" data-step="1">
+              <h3>Avez-vous besoin de prospects qualifiés dans le cadre de votre activité ?</h3>
+              <div class="option-buttons">
+                <button type="button" class="option-btn" data-value="Oui">Oui</button>
+                <button type="button" class="option-btn" data-value="Non">Non</button>
+                <button type="button" class="option-btn" data-value="C'est quoi un prospect ?">C'est quoi un prospect ?</button>
+              </div>
+            </div>
+
+            <!-- Non Step -->
+            <div class="form-step" data-step="non">
+              <div class="message-container">
+                <h3>Merci pour votre réponse</h3>
+                <p>Notre service est principalement destiné aux professionnels qui souhaitent développer leur clientèle.</p>
+                <button type="button" class="btn btn-primary explanation-next">Retour au début</button>
+              </div>
+            </div>
+
+            <!-- Explanation Step -->
+            <div class="form-step" data-step="explanation">
+              <div class="message-container">
+                <h3>Qu'est-ce qu'un prospect ?</h3>
+                <p>Un prospect est un client potentiel qui correspond à ces critères :</p>
+                <ul>
+                  <li>Besoin identifié pour votre offre</li>
+                  <li>Capacité de décision</li>
+                  <li>Budget disponible</li>
+                </ul>
+                <button type="button" class="btn btn-primary explanation-next">Suivant</button>
+              </div>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="form-step" data-step="2">
+              <h3>Quel est votre secteur d'activité ?</h3>
+              <div class="option-buttons">
+                <button type="button" class="option-btn" data-value="Solaire">Solaire</button>
+                <button type="button" class="option-btn" data-value="Climatisation">Climatisation</button>
+                <button type="button" class="option-btn" data-value="Plomberie / Electricité">Plomberie / Electricité</button>
+                <button type="button" class="option-btn" data-value="Sécurité">Sécurité</button>
+                <button type="button" class="option-btn" data-value="Autre service">Autre service</button>
+              </div>
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="form-step" data-step="3">
+              <h3>Coordonnées</h3>
+              <p class="form-subtitle">Nous vous contactons dans les 24h.</p>
+              <div class="input-group">
+                <div class="form-field">
+                  <label for="nom">Nom</label>
+                  <input type="text" id="nom" name="nom" autocomplete="family-name" required>
+                </div>
+                <div class="form-field">
+                  <label for="prenom">Prénom</label>
+                  <input type="text" id="prenom" name="prenom" autocomplete="given-name" required>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+              </div>
+              <div class="form-field">
+                <label for="telephone">Numéro de téléphone</label>
+                <input type="tel" id="telephone" name="telephone" autocomplete="tel" required>
+              </div>
+              <div class="form-field">
+                <label for="entreprise">Nom de l'entreprise</label>
+                <input type="text" id="entreprise" name="entreprise" autocomplete="organization" required>
+              </div>
+              <div class="form-field">
+                <button type="submit" class="btn btn-primary btn-full">Envoyer</button>
+              </div>
+            </div>
+            
+            <!-- Success message -->
+            <div class="form-step" data-step="success">
+              <div class="success-message">
+                <i class="fas fa-check-circle"></i>
+                <h3>Demande envoyée avec succès !</h3>
+                <p>Nous vous contacterons dans les 24 heures pour discuter de vos besoins en prospects qualifiés.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="leads-description">
+      <div class="container">
+        <div class="description-grid">
+          <div class="description-content" data-aos="fade-right">
+            <h2>Pourquoi choisir nos prospects qualifiés ?</h2>
+            <p>Notre technologie d'intelligence artificielle analyse et qualifie des milliers de prospects pour ne vous présenter que les plus pertinents pour votre activité.</p>
+            <ul class="benefits-list">
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Prospects exclusifs et vérifiés</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Ciblage précis par secteur d'activité</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Qualification avancée par IA</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Livraison rapide sous 24h</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Taux de conversion supérieur à la moyenne du marché</span>
+              </li>
+            </ul>
+          </div>
+          <div class="description-image" data-aos="fade-left">
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Prospects qualifiés">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Notre Processus</h2>
+        <div class="process-steps">
+          <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Analyse de vos besoins</h3>
+              <p>Nous étudions votre secteur d'activité, vos cibles et vos objectifs commerciaux.</p>
+            </div>
+          </div>
+          
+          <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Collecte de données</h3>
+              <p>Notre IA collecte et analyse des milliers de prospects potentiels.</p>
+            </div>
+          </div>
+          
+          <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Qualification avancée</h3>
+              <p>Chaque prospect est évalué selon des critères pertinents pour votre activité.</p>
+            </div>
+          </div>
+          
+          <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h3>Livraison exclusive</h3>
+              <p>Vous recevez des prospects qualifiés et exclusifs, prêts à être convertis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Témoignages de nos clients</h2>
+        
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <i class="fas fa-quote-left"></i>
+              <p>Les prospects fournis par Plus de Clients sont vraiment de qualité. Sur 20 prospects reçus, nous avons signé 8 contrats ! Un ROI exceptionnel.</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <h4>Pierre Martin</h4>
+                <p>Directeur, SolaireExpert</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <i class="fas fa-quote-left"></i>
+              <p>Ce qui m'a impressionné, c'est la pertinence des prospects. Ils correspondent parfaitement à notre cible idéale.</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <h4>Julie Renard</h4>
+                <p>Responsable Commercial, ClimaConfort</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <i class="fas fa-quote-left"></i>
+              <p>Un service client exceptionnel et des prospects de grande qualité. Notre activité a connu une croissance de 40% en 3 mois.</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <h4>Thomas Bernard</h4>
+                <p>CEO, ElectriPlus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Questions Fréquentes</h2>
+        
+        <div class="faq-list" data-aos="fade-up" data-aos-delay="100">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Comment garantissez-vous la qualité des prospects ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Notre algorithme d'IA analyse des dizaines de critères pour chaque prospect. Nous vérifions également manuellement la qualité avant livraison, assurant ainsi des taux de conversion élevés.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Combien de prospects puis-je espérer par mois ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Cela dépend de votre secteur et de vos besoins. Nous proposons des forfaits adaptés, généralement entre 20 et 100 prospects qualifiés par mois selon votre capacité de traitement.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Les prospects sont-ils exclusifs ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Absolument ! Chaque prospect vous est exclusivement réservé et ne sera jamais revendu à un concurrent.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Quelle est la garantie si un prospect ne correspond pas à mes critères ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Nous offrons une garantie satisfaction. Si un prospect ne correspond pas aux critères définis, nous le remplaçons gratuitement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+          <h2>Prêt à booster votre activité avec des prospects qualifiés ?</h2>
+          <p>Complétez notre formulaire pour recevoir une proposition personnalisée dans les 24h.</p>
+          <a href="#" class="btn btn-primary">Demander des prospects</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <img src="./images/logo.svg" alt="Plus de Clients" class="footer-logo">
+          <p>Votre partenaire privilégié pour la génération de prospects qualifiés et la croissance de votre entreprise.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="./leads-qualifies.html">Prospects Qualifiés</a></li>
+            <li><a href="./formations-ads.html">Formations Ads</a></li>
+            <li><a href="./gestion-campagnes.html">Gestion de Campagnes</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Légal</h3>
+          <ul>
+            <li><a href="https://docs.google.com/document/d/1WAO3NdPXe2kEUUkdkpsqpZ6bs7AByAFWUVHL2IQiL-M/edit?usp=sharing" target="_blank">Mentions Légales</a></li>
+            <li><a href="https://docs.google.com/document/d/16xGiN-BMPH7jXYuoAlvHvUt5Qx-HejBxeGJK8OQ6hSw/edit?usp=sharing" target="_blank">Politique de Confidentialité</a></li>
+            <li><a href="https://docs.google.com/document/d/1V2mOGS2m3G7wx-1i8-tlepGqrm58RC6-AnlKLHVirt0/edit?usp=sharing" target="_blank">CGV</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p><i class="fas fa-envelope"></i> contact@plus-de-clients.fr</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Plus-de-clients.fr - Tous droits réservés</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/lead-form.js" type="module"></script>
+</body>
+</html>
